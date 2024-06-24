@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: stg_meepaisa__customers_data
+    description: "customers data"
+    columns:
+      - name: customer_id
+        description: "Primary key"
+        tests:
+          - not_null
+
+      - name: customer_age
+      - name: customer_gender
+  - name: stg_meepaisa__products_data
+    description: "products data"
+    columns:
+      - name: customer_ids
+      - name: quantity
+      - name: total_price
+      - name: item_price
+      - name: item_name
+      - name: purchase_date
+      - name: payment_method
+      
+    
