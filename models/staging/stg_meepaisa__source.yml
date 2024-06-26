@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  
+  - name: meepaisa_sales_data
+    description: "meepaisa sales data of last year"
+    database: hive_metastore
+    schema: marketo_salesforce
+    tables:
+      - name: meepaisa_sales
+      - name: customers_data
+      - name: orders_data
+      - name: invoice_data
+    
+    

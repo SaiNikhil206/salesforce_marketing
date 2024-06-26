@@ -1,0 +1,24 @@
+version: 2
+
+models:
+  - name: transformed_data
+    description: "A cleaned and transformed sales data"
+    columns:
+      - name: customer_id
+        description: "The primary key for this table"
+      - name: customer_name
+      - name: customer_age
+      - name: product_name
+      - name: quantity
+      - name: unit_price
+      - name: total_price
+      - name: purchase_date
+      - name: payment_method
+      - name: shipping_address
+
+  - name: aggregated_data
+    description: "A business aggregated model"
+    columns:
+      - name: customer_id
+        description: "The primary key for this table"
+        
